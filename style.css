@@ -1,0 +1,21 @@
+.body {
+    position: relative;
+    width: auto;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 75px;
+    font-size: 60px;
+}
+
+#container {
+    width: 560px;
+    height: 592px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 100px 0 0 -250px;
+    border: 3px solid black;
+}
