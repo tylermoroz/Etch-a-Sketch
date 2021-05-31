@@ -3,7 +3,7 @@ const container = document.querySelector("#container");
 function makeColumns() {
     for( let i = 0; i <= 15; i++) {
         let columns = document.createElement('div');
-        columns.style.width = '35px';
+        columns.style.width = '34.9px';
         columns.style.height = '592px';
         columns.style.margin = '0px';
         columns.style.padding= '0px';
@@ -16,7 +16,7 @@ function makeRows() {
     for (let i = 0; i <= 15; i++) {
         let cells = document.createElement('div');
         cells.style.background = 'white';
-        cells.style.width = "35px";
+        cells.style.width = "34.9px";
         cells.style.height = "35px";
         cells.style.border = "1px solid black";
         cells.style.margin = '0px';
