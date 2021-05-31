@@ -21,6 +21,12 @@ function makeRows() {
         cells.style.border = "1px solid black";
         cells.style.margin = '0px';
         cells.style.padding = '0px';
+        cells.addEventListener("mouseover", function(event){
+            event.target.style.background = 'black';
+            // setTimeout(function() {
+            //     event.target.style.background = '';
+            // }, 500);
+        })
         return cells;
     }
 }
