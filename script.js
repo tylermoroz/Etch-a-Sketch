@@ -23,9 +23,6 @@ function makeRows() {
         cells.style.padding = '0px';
         cells.addEventListener("mouseover", function(event){
             event.target.style.background = 'black';
-            // setTimeout(function() {
-            //     event.target.style.background = '';
-            // }, 500);
         })
         return cells;
     }

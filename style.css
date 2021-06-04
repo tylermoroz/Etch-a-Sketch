@@ -4,18 +4,27 @@
     height: 100%;
 }
 
+.content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 h1 {
     text-align: center;
-    padding-top: 75px;
+    padding-top: 25px;
+    margin-bottom: 15px;
     font-size: 60px;
 }
 
 #container {
     width: 560px;
     height: 592px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: 100px 0 0 -250px;
     border: 3px solid black;
+}
+
+button {
+    width: 75px;
+    margin-bottom: 10px;
 }
