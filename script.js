@@ -7,6 +7,13 @@ button.addEventListener('click', function(){
     let cellWidth = (560 / input);
     let cellHeight = ((592 / input) - 2);
 
+    if(input > 100){
+        alert("Grid must be less than 100 squares per side");
+        input = prompt("How many squares per side?", Number());
+        cellWidth = (560 / input);
+        cellHeight = ((592 / input) - 2);
+    }
+
     function makeColumns() {
         for( let i = 0; i < input; i++) {
             let columns = document.createElement('div');
