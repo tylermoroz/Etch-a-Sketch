@@ -34,9 +34,10 @@ button.addEventListener('click', function(){
             cells.style.border = "1px solid black";
             cells.style.margin = '0px';
             cells.style.padding = '0px';
-            cells.addEventListener("mouseover", function(event){
-                event.target.style.background = 'black';
-            })
+            cells.addEventListener("mouseover", function(){
+                const randomColor = '#' + (0x1000000 + Math.floor(Math.random() * 0x1000000)).toString(16).substr(1);
+                cells.style.background = randomColor;
+            });
             button.addEventListener('click', function(){
                 cells.style.background = 'white';
             })
